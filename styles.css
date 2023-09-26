@@ -144,6 +144,18 @@ h1,h2,h3,h4,h5,h5{
     align-items: center;
 }
 .info-box img{
-    width: 90px;
+    width: 100px;
     margin-right: 24px;
+}
+
+#milestone{
+    background: linear-gradient(rgba(255, 77, 41, 0.9),rgba(255, 77, 41, 0.9)), url(./Assets/img/bg_banner2.jpg);
+}
+#milestone .display-4,
+#milestone p{
+    color: #fff;
+}
+
+#milestone .display-4{
+    font-weight: 700;
 }
