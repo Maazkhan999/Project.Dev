@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;0,700;1,600&family=Barlow:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: "Barlow","sans-serif";
+    line-height: 1.7;
+    color:#516171
+}
+
+h1,h2,h3,h4,h5,h5{
+    font-weight: 700 !important;
+    color:#092032;
+}
+ a{
+    color:#092032;
+    text-decoration: none;
+    font-weight: 500;
+ }
+
+ img{
+    width:100%;
+    
+ }
+
+ .bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+ }
+
+ /*navbar*/
+
+ .top-nav {
+    background-color: #ff4d29;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.top-nav p{
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 16px;
+    color: #fff;
+}
+
+.top-nav i,
+.top-nav span{
+    vertical-align: middle;
+}
+.social-icons a{
+  color:#fff;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+
+}
+.social-icons a:hover{
+    
+    background-color: #fff;
+    color: #ff4d29;
+}
+.navbar{
+    box-shadow: 0px 6px 20px rgba(0 , 0, 0, 0.08);
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 25px;
+    color: #092032;
+}
+.navbar-brand span{
+    color: #ff4d29;
+}
+.navbar .navbar-nav .nav-link:hover:hover,
+.navbar .navbar-nav .nav-link:active:active{
+    color: #ff4d29;
+}
+
+/* btn  */
+.btn{
+    padding:9px 24px;
+    font-family: 500;
+}
+.btn-brand{
+    color: #fff;
+    background-color: #ff4d29;
+    border-color: #ff4d29;
+
+}
+
+.btn-brand:hover{
+    background-color: #d72b08f0;
+    color: #fff;
+
+}
+/* slidder */
+
+.slide1{
+    background: linear-gradient(rgba(9, 32, 50, 0.3) , rgba(9, 32, 50, 0.3)),url(./Assets/img/bg_banner1.jpg);
+}
+
+.slide2{
+    background: linear-gradient(rgba(9, 32, 50, 0.3) , rgba(9, 32, 50, 0.3)),url(./Assets/img/bg_banner2.jpg);
+}
+
+/* //carserol */
+
+.owl-prev,
+.owl-next{
+    position: absolute;
+    top:50%;
+    width:60px !important;
+    height:60px !important;
+    color: #fff !important;
+    border-radius: 100px !important;
+    display: grid;
+    place-items: center;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    margin-top: -30px !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    
+}
+.owl-prev{
+    left: 0;
+}
+.owl-next{
+    right: 0;
+}
+.owl-prev:hover{
+    background-color: #ff4d29 !important;
+}
+.owl-next:hover{
+    background-color: #ff4d29 !important;
+}
