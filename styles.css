@@ -19,6 +19,10 @@ h1,h2,h3,h4,h5,h5{
     width:100%;
     
  }
+ section{
+    padding-top:80px;
+    padding-bottom: 80px;
+ }
 
  .bg-cover{
     background-position: center !important;
@@ -132,4 +136,14 @@ h1,h2,h3,h4,h5,h5{
 }
 .owl-next:hover{
     background-color: #ff4d29 !important;
+}
+
+/* //info-box// */
+.info-box{
+    display: flex;
+    align-items: center;
+}
+.info-box img{
+    width: 90px;
+    margin-right: 24px;
 }
