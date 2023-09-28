@@ -73,11 +73,17 @@ h1,h2,h3,h4,h5,h5{
     color: #092032;
 }
 .navbar-brand span{
+    color: #ff4d29 ;
+}
+.navbar .navbar-nav .nav-link:hover {
     color: #ff4d29;
 }
-.navbar .navbar-nav .nav-link:hover:hover,
-.navbar .navbar-nav .nav-link:active:active{
+.navbar .navbar-nav .nav-link.active {
     color: #ff4d29;
+}
+
+a:hover{
+    color: #ff4d29 !important;
 }
 
 /* btn  */
@@ -94,17 +100,18 @@ h1,h2,h3,h4,h5,h5{
 
 .btn-brand:hover{
     background-color: #d72b08f0;
-    color: #fff;
+    color: #fff !important;
 
 }
+
 /* slidder */
 
 .slide1{
     background: linear-gradient(rgba(9, 32, 50, 0.3) , rgba(9, 32, 50, 0.3)),url(./Assets/img/bg_banner1.jpg);
-}
+}    
 
 .slide2{
-    background: linear-gradient(rgba(9, 32, 50, 0.3) , rgba(9, 32, 50, 0.3)),url(./Assets/img/bg_banner2.jpg);
+background: linear-gradient(rgba(9, 32, 50, 0.3) , rgba(9, 32, 50, 0.3)),url(./Assets/img/bg_banner2.jpg);
 }
 
 /* //carserol */
@@ -189,6 +196,8 @@ h1,h2,h3,h4,h5,h5{
 }
 
 /* /project */
+
+/* /custom setting for all dots */
 .owl-dot.active span{
     background-color: #ff4d29 !important;
 }
@@ -198,7 +207,7 @@ h1,h2,h3,h4,h5,h5{
 }
 
 .projects .overlay{
-    background: linear-gradient(to bottom, rgba(9, 32, 50, 0.01) , rgba(9, 32, 50, 0.01));
+    background: linear-gradient( rgba(255, 77, 41, 0.0) ,  rgba(9, 32, 50, 0.8) );
     position: absolute;
     width:100%;
     height:240px;
@@ -233,6 +242,169 @@ h1,h2,h3,h4,h5,h5{
     vertical-align: middle;
     margin-right: 5px;
 }
+
+
+
+/* TEAM MEMBER  */
+.team-member{
+    text-align: center;
+}
+.team-member .img-wrapper{
+    position: relative;
+    overflow: hidden;
+    
+}
+.team-member .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:-10%;
+    left:0;  
+    background-color: rgba(255, 77, 41, 0.7);
+    transition: all 0.4s ease;
+    opacity: 0;
+    
+
+}
+.team-member .social-icons {
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
+.team-member .overlay:hover{
+    opacity: 1;
+    top: 0;
+}
+.team-member:hover .social-icons{
+    opacity:1;
+    top:50%;
+}
+.team-member h5{
+    margin-top: 24px;
+}
+
+/* /reviews  */
+
+#reviews{
+    background: linear-gradient(rgba(9, 32, 50, 0.8) , rgba(9, 32, 50, 0.5)),url(./Assets/img/bg_banner2.jpg);
+
+}
+.reviews{
+    max-width: 800px;
+    margin:auto;
+    text-align: center;
+}
+.reviews img{
+    max-width: 85px;
+    border-radius: 1000px;
+    margin: auto;
+}
+.reviews h4,
+.reviews p{
+    color: #fff;
+
+}
+.reviews small{
+    color: #ff4d29;
+}
+.reviews p{
+    margin-top: 28px;
+}
+.reviews h4{
+    margin-top: 24px;
+}
+
+.blog-post{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.blog-post .tag{
+    position: absolute;
+    padding: 4px 12px;
+    color: #fff;
+    background-color: #ff4d29;
+    border-radius: 100px;
+    top: 20px;
+    left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.blog-post img{
+    margin-bottom: 20px;
+}
+.blog-post small{
+    margin-top: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ff4d29;
+    padding: 10px;
+}
+.blog-post h4{
+    margin-bottom: 10px;
+   
+    padding: 10px;
+   
+}
+.blog-post p{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.blog-post a{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* //footer  */
+ footer{
+    background: linear-gradient(rgba(9, 32, 50, 0.8) , rgba(9, 32, 50, 0.5)),url(./Assets/img/bg_banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+
+ }
+ footer .navbar-brand{
+    color: #fff;
+    margin-bottom: 25px;
+    display: inline-block;
+    
+ }
+
+ .footer-top p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ .footer-top{
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+ .footer-top .social-icons a{
+    padding: 15px;
+    margin: 2px;
+ }
+
+ .footer-bottom{
+    border-top: 1px solid rgba(255,255,255,0.1) ;
+    padding-top:20px ;
+    padding-bottom:20px ;
+ }
+ .footer-bottom span{
+    color: #ff4d29;
+ }
+ 
+
+ /* form  */
+ .form-control:focus{
+    box-shadow: none;
+    border-color: red;
+    
+ }
+
 
 
 
